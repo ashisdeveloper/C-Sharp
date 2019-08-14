@@ -47,42 +47,16 @@
                 <div class="code-box-copy">
                     <button class="code-box-copy__btn" data-clipboard-target="#example-html" title="Copy"></button>
 
-                    <pre><code class="language-html" id="example-html">&lt;div class=&quot;code-box-copy&quot;&gt;
-    &lt;button class=&quot;code-box-copy__btn&quot; data-clipboard-target=&quot;#example-html&quot; title=&quot;Copy&quot;&gt;&lt;/button&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-html&quot; id=&quot;example-html&quot;&gt;&amp;lt;div class=&amp;quot;example&amp;quot;&amp;gt;
-        Lorem ipsum
-    &amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</code></pre>
+                    <pre><code class="language-html" id="example-html">
+                    <div class="code-box-copy">
+                        <button class="code-box-copy__btn" data-clipboard-target="#example-html" title="Copy"></button>
+                        <pre><code class="language-html" id="example-html">&lt;div class=&quot;example&quot;&gt;
+                            Lorem ipsum
+                        &lt;/div&gt;</code></pre>
+                    </div>
+                    </code></pre>
                 </div>
 
-
-                <h3>Plugin initialization</h3>
-
-                <p>Put in the head section the plugin initialization's code or in the end of the body section:</p>
-                <div class="code-box-copy">
-                    <button class="code-box-copy__btn" data-clipboard-target="#example-initialization" title="Copy"></button>
-                    <pre><code class="language-js" id="example-initialization">&lt;script&gt;
-$(document).ready(function () {
-    $('.code-box-copy').codeBoxCopy();
-});
-&lt;/script&gt;</code></pre>
-                </div>
-
-                <p>Plugin initialization with parameters:</p>
-                
-                <div class="code-box-copy">
-                    <button class="code-box-copy__btn" data-clipboard-target="#example-initialization-with-parameters" title="Copy"></button>
-                    <pre><code class="language-js" id="example-initialization-with-parameters">&lt;script&gt;
-$(document).ready(function () {
-    $('.code-box-copy').codeBoxCopy({
-        tooltipText: 'Copied',
-        tooltipShowTime: 1000,
-        tooltipFadeInTime: 300,
-        tooltipFadeOutTime: 300
-    });
-});
-&lt;/script&gt;</code></pre>
-                </div>
 
             </div>
         </div>
